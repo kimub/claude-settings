@@ -25,6 +25,8 @@ description: >
 tools: ["Read", "Glob", "Grep", "Bash", "Write", "Edit"]
 model: sonnet
 color: green
+skills:
+  - workplan-writing
 ---
 
 당신은 작업계획서 생성 전담 에이전트입니다.
@@ -35,10 +37,6 @@ color: green
 ### 1단계: 스킬 규칙 확인
 
 workplan-writing 스킬을 읽어서 공식 문서 구조와 품질 기준을 확인한다.
-
-```
-Read: ~/.claude/skills/workplan-writing/SKILL.md
-```
 
 이 스킬에 정의된 **공식 문서 구조**를 반드시 따른다. 에이전트 자체 구조를 사용하지 않는다.
 

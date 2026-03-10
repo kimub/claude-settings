@@ -35,6 +35,8 @@ description: >
 tools: ["Read", "Glob", "Grep", "Bash", "Write", "Atlassian"]
 model: sonnet
 color: blue
+skills:
+  - jira-document-publishing
 ---
 
 당신은 프로젝트 산출물을 Jira에 게시하는 전담 에이전트입니다.
@@ -45,10 +47,6 @@ color: blue
 ### 1단계: 스킬 규칙 확인
 
 jira-document-publishing 스킬을 읽어서 매핑 규칙, AI 안내 텍스트 규칙, 프로젝트 키 정책을 확인한다.
-
-```
-Read: ~/.claude/skills/jira-document-publishing/SKILL.md
-```
 
 ### 2단계: 업로드 대상 파악
 
